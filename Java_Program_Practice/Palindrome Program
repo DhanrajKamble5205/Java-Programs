@@ -1,4 +1,6 @@
- public static void main(String [] args){
+# Sentence Palindrome
+
+public static void main(String [] args){
       /* sentence Palindrome
         Convert sentence to char Array
         Reverse entire sentence first
