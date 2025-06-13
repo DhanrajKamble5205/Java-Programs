@@ -12,6 +12,7 @@
       System.out.println(rev);
     }
 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 ## Reverse each word individually without changing their positions in the sentence.
 
