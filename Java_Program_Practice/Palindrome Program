@@ -19,3 +19,26 @@ public class Main {
       }
     }
 }
+
+
+# check number Palindrome
+
+public class Main {
+    
+    public static void main(String [] args){
+      
+      String input ="121";
+      String rev = "";
+      
+      for(int i=input.length()-1;i>=0;i--){
+        rev +=input.charAt(i);
+      }
+      
+      System.out.println(rev);
+      if(input.equals(rev)){
+        System.out.println("Palindrom");
+      }
+      else{
+        System.out.println("Not Palindrom");
+      } 
+    }
