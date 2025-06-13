@@ -1,26 +1,24 @@
-# Palindrome Program
-
-public class Main {
-    
-    public static void main(String [] args){
+ public static void main(String [] args){
+      /* sentence Palindrome
+        Convert sentence to char Array
+        Reverse entire sentence first
+        Then reverse each word by detecting word boundaries
+        Reverse last word separately after loop
+        Print reversed char array
+      */
+      String input ="madam madam";
+      String rev = new StringBuilder(input).reverse().toString();
       
-      String input = "madam";
-      String rev = "";
-      
-      for (int i=input.length()-1;i>=0;i--){
-        rev +=input.charAt(i);
-      }
       if(input.equals(rev)){
-      
-        System.out.println("Palindrom");
+        System.out.println("Yes Palindrome");
       }
       else{
-        System.out.println("Not Palindrom");
+        System.out.println("Not Palindrome");
       }
     }
 }
 
-
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # check number Palindrome
 
 public class Main {
@@ -42,3 +40,4 @@ public class Main {
         System.out.println("Not Palindrom");
       } 
     }
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
